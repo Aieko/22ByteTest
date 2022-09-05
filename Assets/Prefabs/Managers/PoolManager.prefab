@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2708683386918142956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2708683386918142866}
+  - component: {fileID: 2708683386918142957}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2708683386918142866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708683386918142956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2708683386918142957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708683386918142956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd6047a70cee8c49acae245538f6d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePools:
+  - tag: Ball
+    prefab: {fileID: 8427667422505324837, guid: 60dfcb7c8fecead4dbe193021398801e,
+      type: 3}
+    size: 5
+  - tag: Bomb
+    prefab: {fileID: 7344522458818142453, guid: 9b8276d3bda6a2e4abccc455dccbcade,
+      type: 3}
+    size: 5
+  - tag: Coin
+    prefab: {fileID: 3906710429049751573, guid: b5c69c2ca57a421409e461b94ba273e7,
+      type: 3}
+    size: 5
+  particlePools:
+  - tag: CannonFog
+    prefab: {fileID: 6320220515139533134, guid: 5fa774a00d225e9459440aac4e6ab43c,
+      type: 3}
+    size: 5
